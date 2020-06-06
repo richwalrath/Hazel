@@ -1,10 +1,14 @@
-# Directories
-
-.vs/
-bin/
+# Binaries
+**/bin/
+!vendor/bin/
 bin-int/
-Hazel/vendor/
-Sandbox/vendor/ 
 
-# Files
-*.user
+# Hazel files
+*.log
+
+# Visual Studio files and folders
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user

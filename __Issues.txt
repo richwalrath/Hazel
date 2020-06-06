@@ -1,3 +1,10 @@
+004 - Premake
+- Yan uses Premake-5.0.0-alpha13-windows.zip for his video while I am basing this off of the current Premake-5.0.0-alpha15-windows.zip. Any differences will be noted.
+- After a bit more digging into how git handles submodules I've found that submodule tracking is just through something called a gitlink so I have removed the vendor folders from the ignore files and commited the change here. It records the hash of the commit you originally pulled so others should get that same version if using your repository. By default they have to manually update the submodule to get a newer version which could cause breakage.
+- For premake we are going to stick to C++17 for dialect because C++20 has somewhat limited support at the moment.
+- DIFF: The File 'GenerateProjects.bat' is instead called 'GenerateSolution_VS2019.bat' as it is more discriptive otherwise it is the same.
+- DIFF: Updated the ignore file to match what is in Yan's repository as of 2/6/2020. This just ignores the visual studio files so we don't have to worry about them. One exception is the '!vendor/bin/premake' part as that doesn't seem to work. Currently we have to do '!vendor/bin/' only.
+
 003 - Logging
 - OPINION: Yan didn't add Hazel\vendor and Sandbox\vendor to .gitignore so I added them here. It is my opinion that you don't want to commit and track changes of submodules. This brings up the issue though about versioning and it is up to you how you want to handle that. I recommend targetting branches which is about as fine grained as you can get using .gitmodules. This can cause some breaking changes which you will most likely see in later videos as I go through them. I will try to provide targets when possible and describe the differences between this repository and Yan's code.
 
@@ -9,3 +16,4 @@
 
 Base
 - Visual Studio 2019 Community Edition was used and he uses 2017 which may cause some issues but those will be noted and addressed in this file when we find them.
+- I'm not a C++ master or a Git master so there is a chance I'll make a decision and then later need to pivot. It's all about learning, and well I still have a lot to learn.
