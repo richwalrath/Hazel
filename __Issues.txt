@@ -1,0 +1,7 @@
+
+
+001 - Project Setup
+- I missed the part in the properties where he switched from debug to all configurations before Yan made certain changes. This has been corrected in the 002 - Entry Point Branch.
+
+Base
+- Visual Studio 2019 Community Edition was used and he uses 2017 which may cause some issues but those will be noted and addressed in this file when we find them.
