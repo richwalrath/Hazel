@@ -1,3 +1,6 @@
+005 - Event System
+- Moved postbuildcommands from Hazel section in 'premake5.lua' to the Sandbox section and changed it to a prebuildcommands. Also the copy was changed to directly copy the Hazel.dll to the Sandbox folder in bin. The reason for this is that if you didn't have the bin\..\Sandbox folder by time the command is executed it causes the Hazel build to fail. Also it doesn't make sense for it to be done in Hazel as why copy a .dll to someplace that might not be being built. Currently this change fixes needing to run the build process multiple times on a fresh clone. If I find that this has problems I'll adress it then.
+
 004 - Premake
 - Yan uses Premake-5.0.0-alpha13-windows.zip for his video while I am basing this off of the current Premake-5.0.0-alpha15-windows.zip. Any differences will be noted.
 - After a bit more digging into how git handles submodules I've found that submodule tracking is just through something called a gitlink so I have removed the vendor folders from the ignore files and commited the change here. It records the hash of the commit you originally pulled so others should get that same version if using your repository. By default they have to manually update the submodule to get a newer version which could cause breakage.
