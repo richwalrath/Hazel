@@ -1,3 +1,6 @@
+006 - Precompiled Headers
+- After following the video you'll notice Yan didn't build and check the Sandbox project. If he did he would find that it errors because we are using Event.h and not including the pch in our SandboxApp.cpp file. To fix this for the time being I just included the 'hzpch.h' into the SandboxApp.cpp. I'm sure he will address the issue in following videos.
+
 005 - Event System
 - Moved postbuildcommands from Hazel section in 'premake5.lua' to the Sandbox section and changed it to a prebuildcommands. Also the copy was changed to directly copy the Hazel.dll to the Sandbox folder in bin. The reason for this is that if you didn't have the bin\..\Sandbox folder by time the command is executed it causes the Hazel build to fail. Also it doesn't make sense for it to be done in Hazel as why copy a .dll to someplace that might not be being built. Currently this change fixes needing to run the build process multiple times on a fresh clone. If I find that this has problems I'll adress it then.
 
