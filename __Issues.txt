@@ -1,3 +1,7 @@
+008 - Window Events
+- Fixed Event.h (line 73), incorrect variable name.
+- Fixed MouseEvent.h (line 42), removed the duplicated+nested std::string ToString definition.
+
 007 - Window Abstraction
 - Sometime between the last episode and this episode Yan fixed the Event error caused by not having the precompiled header. He included the pch to the Event.h file and I updated my code to reflect that change.
 
