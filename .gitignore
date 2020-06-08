@@ -1,7 +1,7 @@
 # Binaries
 **/bin/
 !vendor/bin/
-bin-int/
+**/bin-int/
 
 # Hazel files
 *.log
