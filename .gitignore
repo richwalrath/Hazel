@@ -6,6 +6,9 @@
 # Hazel files
 *.log
 
+# Sandbox files
+Sandbox/imgui.ini
+
 # Visual Studio files and folders
 .vs/
 **.sln
