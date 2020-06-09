@@ -17,9 +17,14 @@ IncludeDir["GLFW"] = "Hazel/vendor/GLFW/include"
 IncludeDir["Glad"] = "Hazel/vendor/Glad/include"
 IncludeDir["ImGui"] = "Hazel/vendor/imgui"
 
-include "Hazel/vendor/GLFW"
-include "Hazel/vendor/Glad"
-include "Hazel/vendor/imgui"
+-- Group 3rd party dependencies together
+group "Dependencies"
+	include "Hazel/vendor/GLFW"
+	include "Hazel/vendor/Glad"
+	include "Hazel/vendor/imgui"
+
+-- Clear the grouping for follow on projects
+group ""
 
 project "Hazel"
 	location "Hazel"
@@ -66,6 +71,11 @@ project "Hazel"
 			"HZ_BUILD_DLL",
 			"GLFW_INCLUDE_NONE"
 		}
+
+	postbuildcommands
+	{
+		("{COPY} %{cfg.buildtarget.relpath} \"../bin/" .. outputdir .. "/Sandbox/\"")
+	}
 
 	filter "configurations:Debug"
 		defines "HZ_DEBUG"
@@ -115,11 +125,6 @@ project "Sandbox"
 		defines
 		{
 			"HZ_PLATFORM_WINDOWS"
-		}
-
-		prebuildcommands
-		{
-			("{COPY} ../bin/" .. outputdir .. "/Hazel/Hazel.dll ../bin/" .. outputdir .. "/Sandbox")
 		}
 
 	filter "configurations:Debug"
