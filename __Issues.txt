@@ -1,3 +1,6 @@
+023 - Rendering Context
+- Not really an issue... The premake5.lua files were copied from the Hazel/vendor folders and moved to directly into vendor with the submodule name appended to the end. The Hazel premake5.lua was updated to point directly to them. This was done to decouple the submodules in a way where it doesn't need to know how we want to use it and prevents uncommited changes from appearing in those submodule folders. Also the /bin and /bin-int generation for those submodules was moved to the /Hazel directory so they should appear in folders with Hazel and Sandbox. I might re-work these a little more in the future to further clean-up the project.
+
 009 - Layers
 - In Application.h Yan has void PushOverlay(Layer* layer). If following the naming convention of the other files it should be void PushOverlay(Layer* overlay). This has been corrected in this commit. This change was made for PushOverlay in Application.cpp as well.
 - Yan didn't show us the changes he did in Event.h. I pulled the changes from TheCherno/Hazel repositories commit history in this commit.
