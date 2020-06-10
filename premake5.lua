@@ -20,9 +20,9 @@ IncludeDir["glm"] = "Hazel/vendor/glm"
 
 -- Group 3rd party dependencies together
 group "Dependencies"
-	include "Hazel/vendor/GLFW"
-	include "Hazel/vendor/Glad"
-	include "Hazel/vendor/imgui"
+	include "Hazel/vendor/premake5_GLFW.lua"
+	include "Hazel/vendor/premake5_Glad.lua"
+	include "Hazel/vendor/premake5_imgui.lua"
 
 -- Clear the grouping for follow on projects
 group ""
