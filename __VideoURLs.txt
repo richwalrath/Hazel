@@ -1,5 +1,6 @@
 The Cherno - Game Engine Playlist - https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT
 
+022 - Static Libraries and ZERO Warnings - https://www.youtube.com/watch?v=meARMOmTLgE&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=26
 021 - Rendering and Maintenance - https://www.youtube.com/watch?v=meARMOmTLgE&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=25
 020 - Rendering Architecture - https://www.youtube.com/watch?v=meARMOmTLgE&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=24
 	- Check out his OpenGL series if interested.
