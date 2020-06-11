@@ -30,12 +30,14 @@ namespace Hazel {
 	private:
 		static Application* s_Instance;
 
-		bool OnWindowClose(WindowCloseEvent& e);
-
 		std::unique_ptr<Window> m_Window;
 		ImGuiLayer* m_ImGuiLayer;
 		bool m_Running = true;
 		LayerStack m_LayerStack;
+
+		unsigned int m_VertexArray, m_VertexBuffer, m_IndexBuffer;
+
+		bool OnWindowClose(WindowCloseEvent& e);
 
 	};
 
