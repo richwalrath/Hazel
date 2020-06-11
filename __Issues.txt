@@ -1,3 +1,6 @@
+024 - Our First Triangle!
+- The engine compiles and runs fine but my graphics card (Radeon 590 Series) using the AMD drivers on Windows 10 doesn't have a default shader so no triangle is drawn. Just continue to the next video and once shaders are added it should work fine.
+
 023 - Rendering Context
 - Not really an issue... The premake5.lua files were copied from the Hazel/vendor folders and moved to directly into vendor with the submodule name appended to the end. The Hazel premake5.lua was updated to point directly to them. This was done to decouple the submodules in a way where it doesn't need to know how we want to use it and prevents uncommited changes from appearing in those submodule folders. Also the /bin and /bin-int generation for those submodules was moved to the /Hazel directory so they should appear in folders with Hazel and Sandbox. I might re-work these a little more in the future to further clean-up the project.
 
