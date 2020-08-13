@@ -1,3 +1,6 @@
+033 - Updated VideoURLs.txt
+- Forgot to keep updating the VideoURLs.txt list for each video. All branches now have a URL video listed.
+
 024 - Our First Triangle!
 - The engine compiles and runs fine but my graphics card (Radeon 590 Series) using the AMD drivers on Windows 10 doesn't have a default shader so no triangle is drawn. Just continue to the next video and once shaders are added it should work fine.
 
