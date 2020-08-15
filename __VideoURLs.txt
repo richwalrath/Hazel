@@ -1,5 +1,10 @@
 The Cherno - Game Engine Playlist - https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT
 
+036 - Refs, Scopes and Smart Pointers - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=41
+	- References in C++ - https://www.youtube.com/watch?v=IzoFn3dfsPA
+	- Pointers in C++ - https://www.youtube.com/watch?v=DTxHyVn0ODg
+	- Smart Pointers in C++ - https://www.youtube.com/watch?v=UOB7-B2MfwA
+	- Stack vs Heap Memory in C++ - https://www.youtube.com/watch?v=wJ1L2nSIV1s
 035 - Shader Abstraction and Uniforms - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=40
 034 - Material Systems - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=39
 033 - Transforms - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=38
