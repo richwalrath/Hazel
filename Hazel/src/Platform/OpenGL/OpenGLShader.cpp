@@ -133,7 +133,8 @@ namespace Hazel {
 
 			size_t nextLinePos = source.find_first_not_of("\r\n", eol);
 			pos = source.find(typeToken, nextLinePos);
-			shaderSources[ShaderTypeFromString(type)] = source.substr(nextLinePos, pos - (nextLinePos == std::string::npos ? source.size() - 1 : nextLinePos));
+			HZ_CORE_ASSERT(nextLinePos != std::string::npos, "Syntax error");
+			shaderSources[ShaderTypeFromString(type)] = (pos == std::string::npos) ? source.substr(nextLinePos) : source.substr(nextLinePos, pos - nextLinePos);
 		}
 
 		return shaderSources;
@@ -200,6 +201,7 @@ namespace Hazel {
 			
 			for (auto id : glShaderIDs)
 			{
+				glDetachShader(program, id);
 				glDeleteShader(id);
 			}
 
