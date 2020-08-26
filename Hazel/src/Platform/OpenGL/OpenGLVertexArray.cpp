@@ -67,7 +67,7 @@ namespace Hazel {
 				ShaderDataTypeToOpenGLBaseType(element.Type),
 				element.Normalized ? GL_TRUE : GL_FALSE,
 				layout.GetStride(),
-				(const uint32_t*)element.Offset
+				(const size_t*)element.Offset
 			);
 			index++;
 		}
