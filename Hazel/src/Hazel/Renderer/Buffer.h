@@ -1,6 +1,5 @@
 #pragma once
 
-
 namespace Hazel {
 
 	enum class ShaderDataType : uint8_t

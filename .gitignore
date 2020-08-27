@@ -8,6 +8,7 @@
 
 # Sandbox files
 Sandbox/imgui.ini
+Sandbox/*Profile-*.json
 
 # Visual Studio files and folders
 .vs/
