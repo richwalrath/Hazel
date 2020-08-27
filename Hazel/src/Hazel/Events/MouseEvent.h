@@ -4,7 +4,7 @@
 
 namespace Hazel {
 
-	class HAZEL_API MouseMovedEvent : public Event
+	class MouseMovedEvent : public Event
 	{
 
 	public:
@@ -29,7 +29,7 @@ namespace Hazel {
 
 	};
 
-	class HAZEL_API MouseScrolledEvent : public Event
+	class MouseScrolledEvent : public Event
 	{
 
 	public:
@@ -54,7 +54,7 @@ namespace Hazel {
 
 	};
 
-	class HAZEL_API MouseButtonEvent : public Event
+	class MouseButtonEvent : public Event
 	{
 
 	public:
@@ -70,7 +70,7 @@ namespace Hazel {
 
 	};
 
-	class HAZEL_API MouseButtonPressedEvent : public MouseButtonEvent
+	class MouseButtonPressedEvent : public MouseButtonEvent
 	{
 
 	public:
@@ -88,7 +88,7 @@ namespace Hazel {
 
 	};
 
-	class HAZEL_API MouseButtonReleasedEvent : public MouseButtonEvent
+	class MouseButtonReleasedEvent : public MouseButtonEvent
 	{
 
 	public:

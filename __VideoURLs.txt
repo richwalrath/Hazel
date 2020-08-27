@@ -1,5 +1,7 @@
 The Cherno - Game Engine Playlist - https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT
 
+050 - Visual Profiling - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=56
+	- VISUAL BENCHMARKING in C++ - https://www.youtube.com/watch?v=xlAH4dbMVnU
 049 - Intro to Profiling - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=55
 	- Benchmarking in C++ - https://www.youtube.com/watch?v=YG4jexlSAjc
 048 - Single Shader 2D Renderer - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=54
