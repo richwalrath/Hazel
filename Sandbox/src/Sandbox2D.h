@@ -16,6 +16,14 @@ private:
 
 	Hazel::Ref<Hazel::Texture2D> m_CheckerboardTexture;
 
+	struct ProfileResult
+	{
+		const char* Name;
+		float Time;
+	};
+
+	std::vector<ProfileResult> m_ProfileResults;
+
 public:
 	Sandbox2D();
 	virtual ~Sandbox2D() = default;
@@ -25,7 +33,7 @@ public:
 
 	void OnEvent(Hazel::Event& event) override;
 	void OnUpdate(Hazel::Timestep ts) override;
-	
+
 	virtual void OnImGuiRender() override;
 
 private:
