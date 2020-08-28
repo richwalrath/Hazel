@@ -1,5 +1,7 @@
 The Cherno - Game Engine Playlist - https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT
 
+052 - Improving our 2D Rendering API - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=58
+	- Making a GAME in ONE HOUR using MY ENGINE - https://www.youtube.com/watch?v=qITIvVV6BHk
 051 - Instrumentation - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=57
 050 - Visual Profiling - https://www.youtube.com/watch?v=NjKv-HWstxA&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=56
 	- VISUAL BENCHMARKING in C++ - https://www.youtube.com/watch?v=xlAH4dbMVnU
