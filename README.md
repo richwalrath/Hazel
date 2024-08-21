@@ -1,8 +1,14 @@
-This is to track changes in between videos where code changes are made. I am not only providing this for myself but for others if they are having issues. I will be using newer versions of Visual Studio and possibly newer versions of third-party libraries that are in his videos. All differences will be noted in this README for each commit.
+This is to track changes in between videos where code changes are made. I am not only providing this for myself but for others if they are having issues.
+
+All differences will be noted in this README for each commit.
 
 Video Reference:
-#4 --> Project Setup | Game Engine Series - URL: https://www.youtube.com/watch?v=KG8cAGvn9d4
+#6 --> Logging | Game Engine Series - URL: https://www.youtube.com/watch?v=dZr-53LAlOw&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=6
 
 IDE: Visual Studio 2022 Community Edition (Free)
 
-Other Changes: None
+Issues: None
+
+Differences:
+
+- Video #6 - spdLog v1.x - July 23, 2024 used. No differences found yet.

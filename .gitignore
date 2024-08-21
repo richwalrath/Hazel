@@ -5,5 +5,8 @@
 bin/
 bin-int/
 
+# Sub-Modules
+Hazel/vendor/
+
 # Files
 *.user
