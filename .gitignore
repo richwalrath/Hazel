@@ -1,12 +1,11 @@
-# Visual Studio Cache/Options Directory
-.vs/
-
-# Build folders
-bin/
+# Binaries
+**/bin/
 bin-int/
 
-# Sub-Modules
-Hazel/vendor/
-
-# Files
-*.user
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
