@@ -3,7 +3,7 @@ This is to track changes in between videos where code changes are made. I am not
 All differences will be noted in this README for each commit.<br/>
 <br/>
 Video Reference:
-#6 --> Logging | Game Engine Series - URL: https://www.youtube.com/watch?v=dZr-53LAlOw&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=6<br/>
+#6 --> Logging | Game Engine Series - URL: https://www.youtube.com/watch?v=dZr-53LAlOw&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT&index=7<br/>
 
 IDE: Visual Studio 2022 Community Edition (Free)<br/>
 <br/>
